@@ -3,6 +3,7 @@ name: Hot News Crawler
 on:
   schedule:
     - cron: "00 9-18 * * *" # 每 1 小时运行一次
+      timezone: Asia/Shanghai  # 显式声明时区    
   workflow_dispatch:
 
 # 添加权限设置
